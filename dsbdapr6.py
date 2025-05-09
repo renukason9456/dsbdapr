@@ -132,7 +132,7 @@ disp.plot()
 # In[20]:
 
 
-accuracy_score(y_test,y_pred)
+accuracy =accuracy_score(y_test,y_pred)
 
 
 # In[21]:
@@ -173,6 +173,7 @@ print(classification_report(y_test,y_pred))
 
 # In[ ]:
 
-
+error_rate = 1 - accuracy
+print("Error Rate:", error_rate)
 
 
